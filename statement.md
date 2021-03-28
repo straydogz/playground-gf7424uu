@@ -1,11 +1,12 @@
 # Welcome!
 
-This C template lets you get started quickly with a simple one-page playground.
+This C template lets you get started quickly with a simple one-page playground. Showing prime numbers
 
 ```C runnable
 #include <stdio.h>
 
-int main() {
+int main(int c) {
+    if( c<41 ) { printf("%d\n", 41+--c*c+c);main(c+2);}
 	printf("Hello World!");
 }
 
