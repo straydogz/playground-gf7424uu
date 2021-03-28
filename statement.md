@@ -7,7 +7,6 @@ This C template lets you get started quickly with a simple one-page playground. 
 
 int main(int c) {
     if( c<41 ) { printf("%d\n", 41+--c*c+c);main(c+2);}
-	printf("Hello World!");
 }
 
 ```
